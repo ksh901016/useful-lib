@@ -21,7 +21,7 @@ jsoup은 자바로 만들어진 HTML 파서(Parser) 이다.
 
 #### HTML로 파싱하기
 
-##### Parse a document form a String(문자열로부터 파싱하기)
+##### 1. Parse a document form a String(문자열로부터 파싱하기)
 
 ---
 
@@ -36,7 +36,7 @@ Document doc = Jsoup.parse(html);
 
 String 문자열을 well-formed하게 파싱해준다.
 
-ex) <p> Lorem <p>Ipsum  ===> <p>Lorem</p> <p>Ipsum</p>
+ex) `<p> Lorem <p>Ipsum  ===> <p>Lorem</p> <p>Ipsum</p>`
 
 
 
@@ -51,7 +51,7 @@ ex) <p> Lorem <p>Ipsum  ===> <p>Lorem</p> <p>Ipsum</p>
 
 
 
-##### Parsing a body fragment(문서의 일부분을 가진 문자열로부터 파싱하기)
+##### 2. Parsing a body fragment(문서의 일부분을 가진 문자열로부터 파싱하기)
 
 ---
 
@@ -68,7 +68,7 @@ Document.body() 메소드는 document의 body 엘리먼트를 갖고오는 것�
 
 
 
-##### Load a Document from a URL
+##### 3. Load a Document from a URL
 
 ---
 
